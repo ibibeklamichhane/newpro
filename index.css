@@ -1,0 +1,53 @@
+ img{
+    width: 50px;
+    height: 38x;
+    background-color:blue;
+    position: relative;
+}
+
+.mid {
+  width: 100%;
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  
+}
+
+.navbar>li {
+  display: inline-block;
+  width:initial;
+  float :left;
+  white-space: nowrap;
+  color: black;
+}
+.navbar { 
+  display: inline-block;
+  margin-top: 20px;
+  font-size: larger;
+}
+.navbar a:hover {background-color: #ddd;}
+@media (min-width: 992px){
+  .navbar li {
+      margin-left : 1em;
+      margin-right : 1em;
+  }
+}
+
+.topnav-right{
+  float: right;
+  margin-top: 1.5px;
+  font-size: larger;
+  
+}
+.topnav-right>li{
+  display: inline-block; 
+  margin-left : 1em;
+  margin-right : 1em;
+}
+.topnav-right a:hover {background-color: #ddd;}
+.main{
+  background-color: black;
+  height: 60px;
+  display: fixed;
+}
